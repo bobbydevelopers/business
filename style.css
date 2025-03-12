@@ -1,0 +1,51 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.main-container{
+    border: 1px solid red;
+}
+
+.header-container{
+    width: 1240px;
+    margin: 0 auto;
+    border: 1px solid green;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    width: 8%;
+}
+
+.navigation{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+
+.header-btn{
+    width: 12%;
+}
+
+.navigation-menu ul {
+    display: flex;
+    gap: 12px;
+    list-style: none;
+    text-decoration: none;
+}
+
+.navigation-menu ul li a{
+    text-decoration: none;
+}
+
+.cta-btn{
+    text-decoration: none;
+    cursor: pointer;
+    background: linear-gradient(red,yellow);
+    padding: 10px 20px;
+    border-radius: 4px;
+
+}
